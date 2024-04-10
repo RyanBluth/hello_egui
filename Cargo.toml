@@ -54,9 +54,9 @@ egui_infinite_scroll = { path = "./crates/egui_infinite_scroll", version = "0.3.
 egui_thumbhash = { path = "./crates/egui_thumbhash", version = "0.3.0" }
 hello_egui = { path = ".", version = "0.4.0" }
 
-egui = { git = "https://github.com/RyanBluth/egui.git", branch = "main" }
-eframe = { git = "https://github.com/RyanBluth/egui.git", branch = "main" }
-egui_extras = { git = "https://github.com/RyanBluth/egui.git", branch = "main" }
+egui = { git = "https://github.com/RyanBluth/egui.git", branch = "font_fix" }
+eframe = { git = "https://github.com/RyanBluth/egui.git", branch = "font_fix" }
+egui_extras = { git = "https://github.com/RyanBluth/egui.git", branch = "font_fix" }
 
 [patch.crates-io]
 #wry = { path = "../../RustroverProjects/github/wry" }
